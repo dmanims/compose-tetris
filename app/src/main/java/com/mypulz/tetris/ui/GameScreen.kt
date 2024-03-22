@@ -1,4 +1,4 @@
-package com.jetgame.tetris.ui
+package com.mypulz.tetris.ui
 
 import android.graphics.Paint
 import androidx.compose.animation.core.RepeatMode
@@ -22,7 +22,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -42,16 +41,16 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.jetgame.tetris.R
-import com.jetgame.tetris.logic.Brick
-import com.jetgame.tetris.logic.GameStatus
-import com.jetgame.tetris.logic.GameViewModel
-import com.jetgame.tetris.logic.NextMatrix
-import com.jetgame.tetris.logic.Spirit
-import com.jetgame.tetris.logic.SpiritType
-import com.jetgame.tetris.ui.theme.BrickMatrix
-import com.jetgame.tetris.ui.theme.BrickSpirit
-import com.jetgame.tetris.ui.theme.ScreenBackground
+import com.mypulz.tetris.R
+import com.mypulz.tetris.logic.Brick
+import com.mypulz.tetris.logic.GameStatus
+import com.mypulz.tetris.logic.GameViewModel
+import com.mypulz.tetris.logic.NextMatrix
+import com.mypulz.tetris.logic.Spirit
+import com.mypulz.tetris.logic.SpiritType
+import com.mypulz.tetris.ui.theme.BrickMatrix
+import com.mypulz.tetris.ui.theme.BrickSpirit
+import com.mypulz.tetris.ui.theme.ScreenBackground
 import kotlinx.coroutines.ObsoleteCoroutinesApi
 import kotlin.math.min
 

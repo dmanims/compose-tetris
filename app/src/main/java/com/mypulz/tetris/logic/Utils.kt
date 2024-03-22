@@ -1,4 +1,4 @@
-package com.jetgame.tetris.logic
+package com.mypulz.tetris.logic
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -7,13 +7,12 @@ import android.graphics.Color
 import android.media.AudioManager
 import android.media.SoundPool
 import android.view.View
-import android.view.Window
 import android.view.WindowManager
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import com.jetgame.tetris.R
+import com.mypulz.tetris.R
 
 
 fun Offset(x: Int, y: Int) = androidx.compose.ui.geometry.Offset(x.toFloat(), y.toFloat())

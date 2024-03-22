@@ -1,4 +1,4 @@
-package com.jetgame.tetris.ui
+package com.mypulz.tetris.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -28,10 +28,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.jetgame.tetris.R
-import com.jetgame.tetris.logic.Direction
-import com.jetgame.tetris.ui.theme.BodyColor
-import com.jetgame.tetris.ui.theme.ScreenBackground
+import com.mypulz.tetris.R
+import com.mypulz.tetris.logic.Direction
+import com.mypulz.tetris.ui.theme.BodyColor
+import com.mypulz.tetris.ui.theme.ScreenBackground
 
 @Composable
 fun GameBody(
