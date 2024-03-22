@@ -1,4 +1,4 @@
-package com.jetgame.tetris.ui.theme
+package com.mypulz.tetris.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

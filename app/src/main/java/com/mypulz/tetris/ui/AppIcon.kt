@@ -1,4 +1,4 @@
-package com.jetgame.tetris.ui
+package com.mypulz.tetris.ui
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -22,9 +22,9 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.jetgame.tetris.ui.theme.BodyColor
-import com.jetgame.tetris.ui.theme.BrickSpirit
-import com.jetgame.tetris.ui.theme.ScreenBackground
+import com.mypulz.tetris.ui.theme.BodyColor
+import com.mypulz.tetris.ui.theme.BrickSpirit
+import com.mypulz.tetris.ui.theme.ScreenBackground
 
 @Composable
 private fun AppIcon() {
@@ -63,7 +63,7 @@ private fun AppIcon() {
                 )
 
                 Text(
-                    "TETRIS",
+                    "MYPULZ TETRIS",
                     textAlign = TextAlign.Center,
                     color = BrickSpirit,
                     fontSize = 75.sp,

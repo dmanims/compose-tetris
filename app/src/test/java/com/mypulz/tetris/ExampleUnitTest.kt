@@ -1,4 +1,4 @@
-package com.jetgame.tetris
+package com.mypulz.tetris
 
 import org.junit.Test
 

@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.jetgame.tetris"
+        applicationId "com.mypulz.tetris"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -37,7 +37,7 @@ android {
         kotlinCompilerExtensionVersion compose_version
         kotlinCompilerVersion '1.6.10'
     }
-    namespace 'com.jetgame.tetris'
+    namespace 'com.mypulz.tetris'
 }
 
 dependencies {

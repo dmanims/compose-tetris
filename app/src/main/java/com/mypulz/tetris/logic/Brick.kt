@@ -1,4 +1,4 @@
-package com.jetgame.tetris.logic
+package com.mypulz.tetris.logic
 
 import androidx.compose.ui.geometry.Offset
 
