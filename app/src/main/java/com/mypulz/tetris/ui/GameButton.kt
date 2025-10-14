@@ -1,5 +1,6 @@
 package com.mypulz.tetris.ui
 
+import android.R.color
 import android.view.MotionEvent.*
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -9,7 +10,7 @@ import androidx.compose.foundation.interaction.PressInteraction
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.ripple.rememberRipple
+import androidx.compose.material.ripple
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -46,7 +47,7 @@ fun GameButton(
 
     val coroutineScope = rememberCoroutineScope()
     val pressedInteraction = remember { mutableStateOf<PressInteraction.Press?>(null) }
-    val interactionSource = MutableInteractionSource()
+    val interactionSource = remember { MutableInteractionSource() }
 
     Box(
         modifier = modifier
@@ -62,7 +63,12 @@ fun GameButton(
                     startY = 0f,
                     endY = 80f
                 )
-            ).indication(interactionSource = interactionSource, indication = rememberRipple())
+            )
+            .indication(
+                interactionSource = interactionSource, indication = ripple(
+                    color = Purple500,
+                    bounded = true
+            ))
             .run {
                 if (autoInvokeWhenPressed) {
                     pointerInteropFilter {
